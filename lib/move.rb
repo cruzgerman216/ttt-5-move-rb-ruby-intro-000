@@ -13,5 +13,5 @@ def input_to_index(input)
 end
 
 def move(array,index ,value="X")
-array[input_to_index(index)] = value
+array[index] = value
 end
